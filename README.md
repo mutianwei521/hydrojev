@@ -13,6 +13,7 @@ Tianwei Mu, Shengyan Jiang, Mingzhe Yuan\*, Qing Luo, Min Xiao, Wenhong Wang, Ju
 ![python](https://img.shields.io/badge/python-3.11%2B-blue)
 ![EPANET](https://img.shields.io/badge/hydraulics-EPANET%202%20%2F%20WNTR-0a7bbb)
 ![tests](https://img.shields.io/badge/tests-pytest-green)
+![license](https://img.shields.io/badge/license-MIT-yellow)
 ![preregistered](https://img.shields.io/badge/evaluation-pre--registered%2C%20sealed-8a2be2)
 
 </div>
@@ -176,6 +177,10 @@ See [`docs/USAGE.md`](docs/USAGE.md) for the full command list, the result schem
 ## Acknowledgements
 
 C-Town and the BATADAL datasets are from Taormina et al. (2018). Hydraulic simulation uses EPANET 2 (Rossman, 2000) through WNTR (Klise et al., 2017).
+
+## License
+
+The code is released under the [MIT License](LICENSE). Third-party data (BATADAL, EPANET networks) remain under their own terms.
 
 ## Contact
 
