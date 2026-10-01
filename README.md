@@ -169,7 +169,3 @@ C-Town and the BATADAL datasets are from Taormina et al. (2018). Hydraulic simul
 ## License
 
 The code is released under the [MIT License](LICENSE). Third-party data (BATADAL, EPANET networks) remain under their own terms.
-
-## Contact
-
-Corresponding authors: Mingzhe Yuan (mzyuan@sia.cn) and Manhong Huang (huangmanhong@dhu.edu.cn).
