@@ -4,11 +4,9 @@
 
 ### A One-Second, Training-Free Screen for Cyber-Attack and Fault Attribution in Water Distribution Networks
 
-Tianwei Mu, Shengyan Jiang, Mingzhe Yuan\*, Qing Luo, Min Xiao, Wenhong Wang, Jun Li, Manhong Huang\*
+Tianwei Mu
 
-*Manuscript submitted to* **Water Research**
-
-[**Paper**](#citation) · [**Quick start**](#quick-start) · [**Reproducing the paper**](#reproducing-the-paper) · [**Results**](#main-results) · [**Citation**](#citation)
+[**Quick start**](#quick-start) · [**Reproducing the paper**](#reproducing-the-paper) · [**Results**](#main-results) · [**Citation**](#citation)
 
 ![python](https://img.shields.io/badge/python-3.11%2B-blue)
 ![EPANET](https://img.shields.io/badge/hydraulics-EPANET%202%20%2F%20WNTR-0a7bbb)
@@ -163,16 +161,6 @@ python -m hydrojev.run_experiments all --output-dir artifacts/run_full
 See [`docs/USAGE.md`](docs/USAGE.md) for the full command list, the result schema and the safety limitations.
 
 ## Citation
-
-```bibtex
-@article{mu2026hydrojev,
-  title   = {HydroJEV: A one-second, training-free screen for cyber-attack and fault attribution in water distribution networks},
-  author  = {Mu, Tianwei and Jiang, Shengyan and Yuan, Mingzhe and Luo, Qing and Xiao, Min and Wang, Wenhong and Li, Jun and Huang, Manhong},
-  journal = {Water Research},
-  note    = {Under review},
-  year    = {2026}
-}
-```
 
 ## Acknowledgements
 
