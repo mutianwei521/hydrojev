@@ -1,0 +1,77 @@
+paths:
+  ref_code: refCode
+  ref_paper: refPaper
+  artifacts: artifacts
+
+clustering:
+  alpha: 0.35
+  beta: 0.45
+  threshold: 0.65
+  acoustic_speed_m_s: 1000.0
+  default_flow_m3_s: 0.01
+  darcy_friction_factor: 0.02
+
+surrogate:
+  sequence_length: 12
+  hidden_size: 20
+  num_layers: 2
+  dense_size: 60
+  learning_rate: 0.001
+  minimum_learning_rate: 0.000001
+  max_epochs: 100
+  batch_size: 128
+  early_stopping_patience: 10
+  gradient_clip_norm: 1.0
+
+concealment:
+  max_modified_features: 4
+  threshold_quantile: 0.995
+  budget: 200
+  patience: 15
+  candidate_values: 21
+  learning_rate: 0.001
+
+fs_fdi:
+  max_modified_measurements: 4
+  piecewise_segments: 8
+  maximum_flow_fraction: 0.20
+  maximum_head_fraction: 0.10
+  maximum_demand_fraction: 0.20
+  state_deviation_limit: 0.25
+  cusum_threshold: 5.0
+  chi_square_threshold: 9.21
+  solver_order: [gurobi, highs, pulp]
+  solver_time_limit_s: 30.0
+
+residuals:
+  covariance_regularization: 0.000001
+  minimum_rat_window: 8
+  cpdz_alert_threshold: 3.0
+  gefm_alert_threshold: 0.15
+  rat_alert_threshold: 0.25
+
+jev:
+  endpoint: https://api.typesafe.ai/v1/systemone
+  model: jev-latest
+  timeout_s: 10.0
+  max_attempts: 3
+  backoff_initial_s: 0.25
+  mock_base_url: http://127.0.0.1:8000
+
+safety:
+  maximum_state_age_s: 2.0
+  minimum_evidence_count: 3
+  minimum_noul_probability: 0.80
+  minimum_attack_persistence: 2
+  require_local_hydraulic_violation: true
+  require_operator_confirmation: false
+  isolation_hysteresis_steps: 2
+
+experiments:
+  seed: 42
+  train_fraction: 0.80
+  latency_iterations: 100
+  recall_target: 0.95
+  maximum_energy_increase_fraction: 0.05
+  maximum_total_latency_ms: 150.0
+
