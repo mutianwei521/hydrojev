@@ -13,7 +13,7 @@ Tianwei Mu
 ![tests](https://img.shields.io/badge/tests-pytest-green)
 ![license](https://img.shields.io/badge/license-MIT-yellow)
 ![preregistered](https://img.shields.io/badge/evaluation-pre--registered%2C%20sealed-8a2be2)
-
+[![arXiv](https://img.shields.io/badge/arXiv-2610.02048-b31b1b.svg)](https://arxiv.org/abs/2610.02048)
 </div>
 
 ---
@@ -161,6 +161,19 @@ python -m hydrojev.run_experiments all --output-dir artifacts/run_full
 See [`docs/USAGE.md`](docs/USAGE.md) for the full command list, the result schema and the safety limitations.
 
 ## Citation
+
+If you find HydroJEV useful in your research, please cite our preprint:
+
+```bibtex
+@misc{mu2026hydrojev,
+  title         = {A One-Second, Training-Free Screen for Cyber-Attack and Fault Attribution in Water Distribution Networks},
+  author        = {Mu, Tianwei},
+  year          = {2026},
+  eprint        = {2610.02048},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  url           = {[https://arxiv.org/abs/2610.02048](https://arxiv.org/abs/2610.02048)}
+}
 
 ## Acknowledgements
 
