@@ -172,7 +172,7 @@ If you find HydroJEV useful in your research, please cite our preprint:
   primaryClass  = {cs.CR},
   url           = {[https://arxiv.org/abs/2610.02048](https://arxiv.org/abs/2610.02048)}
 }
-
+```
 ## Acknowledgements
 
 C-Town and the BATADAL datasets are from Taormina et al. (2018). Hydraulic simulation uses EPANET 2 (Rossman, 2000) through WNTR (Klise et al., 2017).
