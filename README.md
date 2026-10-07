@@ -10,9 +10,7 @@ Tianwei Mu
 
 ![python](https://img.shields.io/badge/python-3.11%2B-blue)
 ![EPANET](https://img.shields.io/badge/hydraulics-EPANET%202%20%2F%20WNTR-0a7bbb)
-![tests](https://img.shields.io/badge/tests-pytest-green)
 ![license](https://img.shields.io/badge/license-MIT-yellow)
-![preregistered](https://img.shields.io/badge/evaluation-pre--registered%2C%20sealed-8a2be2)
 [![arXiv](https://img.shields.io/badge/arXiv-2610.02048-b31b1b.svg)](https://arxiv.org/abs/2610.02048)
 </div>
 
